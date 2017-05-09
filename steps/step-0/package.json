@@ -1,0 +1,26 @@
+{
+  "name": "@cristiancavalli/chatbase-io2017",
+  "version": "0.0.1",
+  "description": "Make you a chatbot with chatbase for much happy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chatbase",
+    "google-io",
+    "io-2017",
+    "chatbots"
+  ],
+  "author": "Google Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@cristiancavalli/chatbase-node": "0.0.2",
+    "botbuilder": "^3.7.0",
+    "lodash.keys": "^4.2.0",
+    "lodash.merge": "^4.6.0",
+    "lodash.pick": "^4.4.0",
+    "lodash.random": "^3.2.0"
+  }
+}
