@@ -19,7 +19,7 @@ const builder = require('botbuilder');
 const random = require('lodash.random');
 const constants = require('../constants/gorge-of-eternal-peril.js');
 // BEGIN MODIFICATION TO LAST STEP
-const chatbase = require('chatbase-node')
+const chatbase = require('@google/chatbase')
   .setApiKey('[your api key]')
   .setUserId('[your agent name]')
   .setPlatform('gorge-of-peril')

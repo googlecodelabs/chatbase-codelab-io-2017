@@ -16,7 +16,7 @@
   "author": "Google Inc.",
   "license": "Apache-2.0",
   "dependencies": {
-    "@cristiancavalli/chatbase-node": "0.0.2",
+    "@google/chatbase": "^0.0.1",
     "botbuilder": "^3.7.0",
     "lodash.keys": "^4.2.0",
     "lodash.merge": "^4.6.0",
