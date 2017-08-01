@@ -21,7 +21,7 @@ const constants = require('../constants/gorge-of-eternal-peril.js');
 // BEGIN MODIFICATION TO LAST STEP
 const chatbase = require('@google/chatbase')
   .setApiKey('[your api key]')
-  .setUserId('[your agent name]')
+  .setUserId('some-unique-user-id')
   .setPlatform('gorge-of-peril')
   .setVersion('1.0')
   .setIntent('cross-gorge-of-peril');
